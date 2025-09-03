@@ -26,5 +26,5 @@ jobs:
       - name: Run sync script
         env:
           TOKEN: ${{ secrets.TOKEN }}
-          PROFILE: ${{ secrets.PROFILE }}
+          PROFILE: ${{ secrets.PROFILES }}
         run: uv run python main.py
